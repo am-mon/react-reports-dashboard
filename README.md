@@ -1,5 +1,3 @@
-# React + Vite
-
 # React Dashboard - Reports List with Category Filter
 
 This is a simple React dashboard app that displays a list of reports fetched from a JSON file. Users can filter reports by category using a dropdown filter.
@@ -20,14 +18,14 @@ This is a simple React dashboard app that displays a list of reports fetched fro
 
 If you want to create the app from scratch using Vite, follow these steps:
 
-````bash
+```bash
 cd Desktop
 npm create vite@latest your-app-name
 # When prompted, select "React" and "JavaScript"
 cd your-app-name
 npm install
 npm run dev
-
+```
 
 ## Run the App
 
@@ -35,5 +33,4 @@ To start the Vite development server and run the app locally, use:
 
 ```bash
 npm run dev
-````
-# react-reports-dashboard
+```

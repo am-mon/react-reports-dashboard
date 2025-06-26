@@ -8,7 +8,7 @@ export default function CategoryFilter({ selectedOption, onSelectOption }) {
   useEffect(() => {
     const fetchFilterOptions = async () => {
       try {
-        const res = await axios.get("/public/reports/reports.json");
+        const res = await axios.get("/reports/reports.json");
         const uniqueCategories = res.data.reduce((acc, report) => {
           if (!acc.includes(report.category)) {
             acc.push(report.category);

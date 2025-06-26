@@ -12,7 +12,7 @@ export default function ReportList({ categoryFilter }) {
     const fetchReports = async () => {
       setLoading(true);
       try {
-        const res = await axios.get("/public/reports/reports.json");
+        const res = await axios.get("/reports/reports.json");
         setTimeout(() => {
           const filteredReports = categoryFilter
             ? res.data.filter((report) => report.category === categoryFilter)
