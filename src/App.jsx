@@ -1,5 +1,5 @@
 import { Routes, Route } from "react-router-dom";
-import MainLayout from "./layouts/mainLayout";
+import MainLayout from "./layouts/MainLayout";
 import Dashboard from "./pages/Dashboard";
 
 function App() {
