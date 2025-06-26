@@ -7,7 +7,7 @@ function App() {
     <>
       <Routes>
         <Route path="/" element={<MainLayout />}>
-          <Route path="/" element={<Dashboard />} />
+          <Route index element={<Dashboard />} />
         </Route>
       </Routes>
     </>
